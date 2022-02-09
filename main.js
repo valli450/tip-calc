@@ -18,6 +18,7 @@ let tps = 0;
 function tipButton(stl){
     switch(stl){
         case('percent-5'):
+            tps = 0;
             tps+=5;
             button5.classList.add('active');
             button10.classList.remove('active');
@@ -26,6 +27,7 @@ function tipButton(stl){
             button50.classList.remove('active');
             break;
         case('percent-10'):
+            tps = 0;
             tps+=10;
             button5.classList.remove('active');
             button10.classList.add('active');
@@ -34,6 +36,7 @@ function tipButton(stl){
             button50.classList.remove('active');
             break;
         case('percent-15'):
+            tps = 0;
             tps+=15;
             button5.classList.remove('active');
             button10.classList.remove('active');
@@ -42,6 +45,7 @@ function tipButton(stl){
             button50.classList.remove('active');
             break;
         case('percent-25'):
+            tps = 0;
             tps+=25;
             button5.classList.remove('active');
             button10.classList.remove('active');
@@ -50,6 +54,7 @@ function tipButton(stl){
             button50.classList.remove('active');
             break;
         case('percent-50'):
+            tps = 0;
             tps+=50;
             button5.classList.remove('active');
             button10.classList.remove('active');
